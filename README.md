@@ -42,7 +42,8 @@
     <h2 style="color: #555;">Project Structure</h2>
     <pre style="background-color: #f2f2f2; padding: 10px; border-radius: 4px; color: #333;">
     AI_Assistant_Project/
-    ├── main.py
+    ├── Phoenix
+    |        └──Phoenix
     └── README.html
     </pre>
   </section>
