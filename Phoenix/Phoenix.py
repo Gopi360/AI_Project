@@ -73,12 +73,12 @@ def wish_boss():
     hour = int(datetime.now().hour)
 
     if hour >= 0 and hour <=  12:
-        speak(f"Good Morning BOSS!!!")
+        speak(f"Hey Boss!!! \nGood Morning.")
     elif hour > 12 and hour <= 18:
-        speak(f"Good Afternoon BOSS!!!")
+        speak(f"Hey Boss!!! \nGood Afternoon.")
     else:
-        speak(f"Good Evening BOSS!!!")
-    speak("Tell me what can I do for you today??")
+        speak(f"Hey Boss!!! \nGood Evening.")
+    speak("Tell me what can I do for you??")
 
 def wish_sree():
     hour = int(datetime.now().hour)
@@ -152,7 +152,7 @@ if __name__ == "__main__":
             cv2.destroyAllWindows()
 
         elif("play" in query and "music" in query) or ("play" in query and "song" in query): #Playing Music
-            music_dir = "E:\\AI_Project\\Phoenix\\Music"
+            music_dir = "E:\\AI_Project\\AI_Project\\Phoenix\\Music"
             speak("Sure")
             songs = os.listdir(music_dir)
             rd = random.choice(songs)
@@ -167,7 +167,7 @@ if __name__ == "__main__":
             speak("Searching Wikipedia...")
             topic = extract_topic_from_query(query)
             try:
-                results = wikipedia.summary(topic, sentences=5)
+                results = wikipedia.summary(topic, sentences=1)
                 speak("According to Wikipedia")
                 speak(results)
                 # print(results)
@@ -205,10 +205,10 @@ if __name__ == "__main__":
             movie = take_command().lower()
             if("hollywood" in movie):
                 speak("Here you Go!!!")
-                webbrowser.open("https://moviesmod.cash/")
+                webbrowser.open("https://moviesmod.gift/")
             elif("bollywood" in movie):
                 speak("Here you Go!!!")
-                webbrowser.open("https://topmovies.beer/")
+                webbrowser.open("https://topmovies.wales/")
             else:
                 ("I dont have the link to download this type of movie!!")
         

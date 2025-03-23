@@ -11,13 +11,13 @@
   </header>
 
   <section>
-    <h2 style="color: #555;">Introduction</h2>
-    <p style="color: #666;">This AI Assistant project is designed to provide voice-based interactions and execute commands like opening applications, searching Wikipedia, playing music, sending WhatsApp messages, and more. It uses various Python libraries such as <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">pyttsx3</code>, <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">speech_recognition</code>, <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">opencv-python</code>, and <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">wikipedia</code>.</p>
+    <h2>Introduction</h2>
+    <p>This AI Assistant project is designed to provide voice-based interactions and execute commands like opening applications, searching Wikipedia, playing music, sending WhatsApp messages, and more. It uses various Python libraries such as <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">pyttsx3</code>, <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">speech_recognition</code>, <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">opencv-python</code>, and <code style="background-color: #f2f2f2; padding: 2px 4px; border-radius: 4px;">wikipedia</code>.</p>
   </section>
 
   <section>
-    <h2 style="color: #555;">Features</h2>
-    <ul style="color: #666;">
+    <h2>Features</h2>
+    <ul>
       <li>Speech recognition and text-to-speech conversion</li>
       <li>Opening system applications like Notepad and Command Prompt</li>
       <li>Web searches and Wikipedia integration</li>
@@ -28,34 +28,29 @@
   </section>
 
   <section>
-    <h2 style="color: #555;">Installation</h2>
-    <p style="color: #666;">To run this project, you need to install the following Python libraries:</p>
-    <pre style="background-color: #f2f2f2; padding: 10px; border-radius: 4px; color: #333;">pip install pyaudio pyttsx3 SpeechRecognition setuptools opencv-python wikipedia pywhatkit</pre>
+    <h2>Installation</h2>
+    <p>To run this project, you need to install the following Python libraries:</p>
+    <pre style="padding: 10px; border-radius: 4px;">pip install pyaudio pyttsx3 SpeechRecognition setuptools opencv-python wikipedia pywhatkit</pre>
   </section>
 
   <section>
-    <h2 style="color: #555;">Usage</h2>
-    <p style="color: #666;">Run the script and interact with the AI Assistant through voice commands. The assistant will respond accordingly and perform the requested actions.</p>
+    <h2>Usage</h2>
+    <p>Run the script and interact with the AI Assistant through voice commands. The assistant will respond accordingly and perform the requested actions.</p>
   </section>
 
   <section>
-    <h2 style="color: #555;">Project Structure</h2>
-    <pre style="background-color: #f2f2f2; padding: 10px; border-radius: 4px; color: #333;">
+    <h2>Project Structure</h2>
+    <pre style="padding: 10px;">
     AI_Assistant_Project/
     ├── Phoenix
-    |        └──Phoenix
+    |        └──Phoenix.py
     └── README.html
     </pre>
   </section>
 
   <section>
-    <h2 style="color: #555;">Contributing</h2>
-    <p style="color: #666;">Feel free to fork this repository and suggest improvements by opening pull requests.</p>
-  </section>
-
-  <section>
-    <h2 style="color: #555;">License</h2>
-    <p style="color: #666;">This project is licensed under the MIT License.</p>
+    <h2>Contributing</h2>
+    <p>Feel free to fork this repository and suggest improvements by opening pull requests.</p>
   </section>
 </body>
 </html>
