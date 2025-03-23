@@ -3,11 +3,10 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>AI Assistant Project - README</title>
 </head>
 <body style="font-family: Arial, sans-serif; line-height: 1.6; margin: 20px;">
   <header>
-    <h1 style="color: #333; text-align: center;">AI Assistant Project</h1>
+    <h1 style="color: #333; text-align: center;">AI Project</h1>
   </header>
 
   <section>
